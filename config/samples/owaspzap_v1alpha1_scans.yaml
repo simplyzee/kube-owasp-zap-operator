@@ -1,0 +1,10 @@
+apiVersion: owaspzap.simplyzee.dev/v1alpha1
+kind: Scans
+metadata:
+  name: scans-sample
+spec:
+  debug: true
+  spider: true
+  recursiveScan: true
+  podName: nodegoat-scan
+  targetUrl: http://nodegoat.herokuapp.com/

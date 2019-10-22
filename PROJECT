@@ -1,0 +1,7 @@
+version: "2"
+domain: simplyzee.dev
+repo: github.com/zee-ahmed/kube-owasp-zap-operator
+resources:
+- group: owaspzap
+  version: v1alpha1
+  kind: Scans
